@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>GEMSITE</title>
+		<link rel="shortcut icon" href='images/title.png' type="image/png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">  
+      <link rel="stylesheet" href="css/style.css">
+	</head>
+	<style>
+		img.test{
+			width: 100%;
+			height: auto;
+		}
+	</style>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-diamond"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>GEMSITE</h1>
+								<p>
+								Blogsite
+								</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="/login">Login</a></li>
+								<li><a href="/signup">Sign Up</a></li>
+								
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>						
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Login -->
+							<article id="login">
+								<h2 class="major">LOGIN</h2>
+								<h1>Welcome Back!</h1>
+						          
+						          <div class="top-row">
+						            <div class="field-wrap">
+						            <label>
+						              Name<span class="req">*</span>
+						            </label>
+						            <input type="text" id="txtName">
+						          </div>
+						          
+						          <div class="field-wrap">
+						            <label>
+						              Password<span class="req">*</span>
+						            </label>
+						            <input type="password" id="txtPass">
+						          </div>
+						          </div>
+						          
+						          <p class="forgot"><a href="#signup">Not a member?</a></p>
+						          <form action="/profile">
+						          <button onclick="createUser()">Log In</button>
+						          </form>
+						          <!-- <table border="1">
+						            <thead>
+						              <tr>
+						                <th>Name</th>
+						                <th>Password</th>
+						                <th>Photo</th>
+						              </tr>
+						            </thead>
+						            <tbody id="tblNames">
+
+						            </tbody>
+						          </table> -->
+						          <script type="text/javascript" src="js/createUser.js"></script>
+								
+							
+							</article>
+
+							<!-- Signup -->
+							<article id="signup">
+								<h2 class="major">SIGNUP</h2>
+								<h1>Sign Up for Free</h1>
+						          
+						          <!-- <form action="/login" method="post"> -->
+						          
+						          <div class="top-row">
+						            <div class="field-wrap">
+						              <label>
+						                Name<span class="req">*</span>
+						              </label>
+						              <input type="text" id="txtName">
+						            </div>
+						        
+						            <div class="field-wrap">
+						              <label>
+						                Password<span class="req">*</span>
+						              </label>
+						              <input type="password" id="txtPass">
+						            </div>
+						          </div>
+						          
+						          <form action="#login">
+						          <button onclick="createUser()">Get Started</button>
+						          </form>
+						          <!-- <table border="1">
+						            <thead>
+						              <tr>
+						                <th>Name</th>
+						                <th>Password</th>
+						                <th>Photo</th>
+						              </tr>
+						            </thead>
+						            <tbody id="tblNames">
+
+						            </tbody>
+						          </table> -->
+						          <script type="text/javascript" src="js/createUser.js"></script>
+								
+							
+							</article>
+
+						<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+						<script src="js/index.js"></script>
+						
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Elouise MonteGrande. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
